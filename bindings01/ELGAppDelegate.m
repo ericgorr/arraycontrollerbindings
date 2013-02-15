@@ -12,7 +12,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	// Insert code here to initialize your application
+	[[self controller] addObject:@{ @"name" : @"itemA", @"part" : @"partA" }];
+	[[self controller] addObject:@{ @"name" : @"itemB", @"part" : @"partB" }];
+	[[self controller] addObject:@{ @"name" : @"itemC", @"part" : @"partC" }];
 }
 
 @end
